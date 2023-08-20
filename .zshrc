@@ -6,6 +6,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+source /usr/share/nvm/init-nvm.sh
 
 alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias toggle-hdmi="source $HOME/.scripts/toggle-hdmi.sh"
